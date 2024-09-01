@@ -24,6 +24,3 @@ Para atingir o objetivo principal, os seguintes objetivos específicos foram def
 
 Em desenvolvimento.
 
-### Como Contribuir
-
-Contribuições são bem-vindas! Se você deseja colaborar, sinta-se à vontade para enviar um pull request ou abrir uma issue com sugestões ou correções.
