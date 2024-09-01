@@ -2,7 +2,7 @@
 
 Este projeto faz parte do meu Trabalho de Conclusão de Curso (TCC) e visa desenvolver uma ferramenta para integrar dados financeiros provenientes de fontes públicas da B3 e CVM, criando uma base de dados pública que pode ser utilizada para análises do mercado financeiro.
 
-## OBJETIVOS
+## Objetivos
 
 ### Objetivo Geral
 
@@ -17,10 +17,9 @@ Para atingir o objetivo principal, os seguintes objetivos específicos foram def
 
 ### Dados Utilizados
 
-- **CVM**: Formulário Cadastral (FCA), Demonstrações Financeiras Padronizadas (DFP), Informações Trimestrais (ITR), Formulário de Referência (FRE), Informes Periódicos e Eventuais (IPE), Informação Cadastral (CAD).
+- **CVM**: Formulário Cadastral (FCA), Demonstrações Financeiras Padronizadas (DFP), Informações Trimestrais (ITR), Formulário de Referência (FRE), Informes Periódicos e Eventuais (IPE), Informação Cadastral (CAD). Os dados podem ser acessados através do link: [dados da CVM](https://dados.cvm.gov.br/dados/).
 - **B3**: Dados a serem especificados no decorrer do projeto.
 
 ### Status do Projeto
 
 Em desenvolvimento.
-
