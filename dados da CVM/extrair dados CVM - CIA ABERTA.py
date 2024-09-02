@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import time
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 # Função para fazer o download do arquivo
 def download_file(url, save_path):
@@ -48,15 +48,16 @@ def explore_and_download(directory_url, base_save_path):
         full_url = urljoin(directory_url, href)
         if not full_url.startswith(base_url):
             continue
-        
-        save_path = os.path.join(base_save_path, href)
-        
+
+        # Caminho relativo para manter a estrutura de diretórios
+        relative_path = os.path.relpath(urlparse(full_url).path, urlparse(base_url).path)
+        save_path = os.path.join(dest_dir_base, relative_path)
+
         if href.endswith('/'):
             # Se for um diretório, cria o diretório e explora-o
-            sub_dir_path = os.path.join(base_save_path, href)
-            os.makedirs(sub_dir_path, exist_ok=True)
+            os.makedirs(save_path, exist_ok=True)
             print(f"Entrando no diretório {full_url}")
-            explore_and_download(full_url, sub_dir_path)
+            explore_and_download(full_url, save_path)
         elif href.endswith('.csv') or href.endswith('.zip') or href.endswith('.txt'):
             # Se for um arquivo, faz o download
             download_file(full_url, save_path)
