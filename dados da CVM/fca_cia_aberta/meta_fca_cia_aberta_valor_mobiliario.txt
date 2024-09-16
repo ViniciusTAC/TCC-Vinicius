@@ -1,0 +1,146 @@
+-----------------------
+Campo: Classe_Acao_Preferencial
+-----------------------
+   Descrição : Classe de ação preferencial
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Codigo_Negociacao
+-----------------------
+   Descrição : Código de negociação (ticker)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 12
+
+-----------------------
+Campo: Composicao_BDR_Unit
+-----------------------
+   Descrição : Composição de BDR Unit
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 120
+
+-----------------------
+Campo: Data_Fim_Listagem
+-----------------------
+   Descrição : Data fim de listagem
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Fim_Negociacao
+-----------------------
+   Descrição : Data fim da negociação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Inicio_Listagem
+-----------------------
+   Descrição : Data de início de listagem
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Inicio_Negociacao
+-----------------------
+   Descrição : Data de início da negociação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Entidade_Administradora
+-----------------------
+   Descrição : Entidade administradora
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Mercado
+-----------------------
+   Descrição : Nome do Mercado
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Nome_Empresarial
+-----------------------
+   Descrição : Nome da empresa
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Segmento
+-----------------------
+   Descrição : Segmento
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Sigla_Classe_Acao_Preferencial
+-----------------------
+   Descrição : Sigla da classe de ação preferencial
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Sigla_Entidade_Administradora
+-----------------------
+   Descrição : Sigla da entidade administradora
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Valor_Mobiliario
+-----------------------
+   Descrição : Valor mobiliário
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+

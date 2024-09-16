@@ -1,0 +1,122 @@
+-----------------------
+Campo: Auditor
+-----------------------
+   Descrição : Nome do Auditor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Codigo_CVM_Auditor
+-----------------------
+   Descrição : Código CVM do auditor
+   Domínio   : Númerico
+   Tipo Dados: char
+   Tamanho   : 6
+
+-----------------------
+Campo: CPF_CNPJ_Auditor
+-----------------------
+   Descrição : CPF/CNPJ do auditor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CPF_Responsavel_Tecnico
+-----------------------
+   Descrição : CPF do responsável técnico
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Data_Fim_Atuacao_Auditor
+-----------------------
+   Descrição : Data fim de atuação do auditor
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Fim_Atuacao_Responsavel_Tecnico
+-----------------------
+   Descrição : Data fim de atuação do responsável técnico
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Inicio_Atuacao_Auditor
+-----------------------
+   Descrição : Data de início de atuação do auditor
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Inicio_Atuacao_Responsavel_Tecnico
+-----------------------
+   Descrição : Data de início de atuação do responsável técnico
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Empresarial
+-----------------------
+   Descrição : Nome da empresa
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Origem_Auditor
+-----------------------
+   Descrição : Nacionalidade do auditor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 11
+
+-----------------------
+Campo: Responsavel_Tecnico
+-----------------------
+   Descrição : Responsável técnico
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+

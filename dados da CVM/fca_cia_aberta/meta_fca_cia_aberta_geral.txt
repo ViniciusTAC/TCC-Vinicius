@@ -1,0 +1,212 @@
+-----------------------
+Campo: Categoria_Registro_CVM
+-----------------------
+   Descrição : Categoria do registro na CVM
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CNPJ_Companhia
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: Codigo_CVM
+-----------------------
+   Descrição : Código CVM
+   Domínio   : Numérico
+   Tipo Dados: char
+   Tamanho   : 6
+
+-----------------------
+Campo: Data_Alteracao_Exercicio_Social
+-----------------------
+   Descrição : Data de alteração do exercício social
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Categoria_Registro_CVM
+-----------------------
+   Descrição : Data da categoria do registro na CVM
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Constituicao
+-----------------------
+   Descrição : Data da constituição
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Especie_Controle_Acionario
+-----------------------
+   Descrição : Data da espécie do controle acionário
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Nome_Empresarial
+-----------------------
+   Descrição : Data do nome empresarial
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Referencia
+-----------------------
+   Descrição : Data de referência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Registro_CVM
+-----------------------
+   Descrição : Data de registro na CVM
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Situacao_Emissor
+-----------------------
+   Descrição : Data da situação do emissor
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Data_Situacao_Registro_CVM
+-----------------------
+   Descrição : Data da situação do registro na CVM
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: Descricao_Atividade
+-----------------------
+   Descrição : Descrição da atividade
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 200
+
+-----------------------
+Campo: Dia_Encerramento_Exercicio_Social
+-----------------------
+   Descrição : Dia de encerramento do exercício social
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Especie_Controle_Acionario
+-----------------------
+   Descrição : Espécie de controle acionário
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: ID_Documento
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: Mes_Encerramento_Exercicio_Social
+-----------------------
+   Descrição : Mês de encerramento do exercício social
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
+-----------------------
+Campo: Nome_Empresarial
+-----------------------
+   Descrição : Nome da empresa
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Nome_Empresarial_Anterior
+-----------------------
+   Descrição : Nome anterior da empresa
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Pagina_Web
+-----------------------
+   Descrição : Página Web
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Pais_Custodia_Valores_Mobiliarios
+-----------------------
+   Descrição : Pais de custódia dos valores mobiliários
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Pais_Origem
+-----------------------
+   Descrição : País de origem
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Setor_Atividade
+-----------------------
+   Descrição : Setor de Atividade
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Situacao_Emissor
+-----------------------
+   Descrição : Situação do emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Situacao_Registro_CVM
+-----------------------
+   Descrição : Situação do registro na CVM
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: Versao
+-----------------------
+   Descrição : Versão do documento
+   Domínio   : Numérico
+   Tipo Dados: smallint
+   Precisão  : 5
+   Scale     : 0
+
